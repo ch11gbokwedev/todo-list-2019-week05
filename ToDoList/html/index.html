@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>To-Do Today!</h1>
+    </header>
+    <section class="form">
+      <form class="formStart" action="index.html" method="post">
+        <input id="input" type="text" name="" value="">
+        <button id="addToList" type="button" name="button">Add to List</button>
+      </form>
+    </section>
+    <section class="toDoItems" id="list" >
+      <ul contenteditable="true" id="itemList">
+
+      </ul>
+    </section>
+    <footer class="outputsAndOptions">
+      <section>
+        <p>You have <span id="howManyLeft">0</span> left.</p>
+      </section>
+      <section>
+        <button id="clearList" type="button" name="button">Clear List</button>
+        <button id="clearCompleted" type="button" name="button">Clear Completed</button>
+      </section>
+    </footer>
+    <script type="text/javascript" src="../js/main.js">
+
+    </script>
+  </body>
+</html>

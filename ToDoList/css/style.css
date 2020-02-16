@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(118, 85, 54);
+  font-size: 40px;
+}
+h1 {
+  margin: 0;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bold;
+}
+.form {
+  width: 100%;
+  height: auto;
+  background-color: rgb(118, 85, 54);
+}
+.formStart {
+  padding-top: 3%;
+}
+.toDoItems {
+  height: 500px;
+  width: 100%;
+  background: white;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+  font-size: 25px;
+  font-family: 'Homemade Apple', cursive;
+}
+.outputsAndOptions {
+  height: auto;
+  width: 100%;
+  background-color: rgb(118, 85, 54);
+  color: white;
+  clear: both;
+}
+
+footer p {
+  padding: 1%;
+}
+footer button {
+  margin: 1%;
+  padding: 1%;
+}
+.completed{
+  text-decoration: line-through;
+  color:grey;
+}
+button {
+  font-size: 20px;
+  font-family: 'Homemade Apple', cursive
+}
